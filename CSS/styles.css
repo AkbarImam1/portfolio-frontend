@@ -1,0 +1,254 @@
+.header-section h1{
+  font-size: 3rem;
+  opacity: 0.6;
+  margin: 90px 0 10px;
+}
+.header-section p{
+font-size: 1.1rem;
+opacity: .6;
+margin-left: 90px 0 20px 0;
+line-height: 2;
+}
+.header-img{
+
+background-color: #8DCBE6;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  height: 300px;
+  margin: 50px auto;
+  width: 300px;
+  border-radius: 100%;
+  margin: 50px 0;
+}
+.header-img-2 img{
+height: 600px;
+width: 600px;
+height: 550px;
+width: 550px;
+}
+
+/* NAVBAR ANIMATION */
+hr {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    margin-top: 0px;
+    background-color: #000;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: #13005A;
+    height: 2px;
+    width: 0%;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    transition: .35s ease;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+.sign-up{
+  margin-top: 12px;
+}
+/* .desk{
+display: flex;
+justify-content: center;
+align-item : center;
+flex-direction: column;
+
+}
+.desk img{
+
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 50px;
+padding-bottom: 20px;
+margin-top: 30px;
+margin: 0 110px;
+width: 1000px;
+
+} */
+.bio{
+  margin-top: 30px;
+  position: relative;
+  bottom:100px;
+  background-color: #AEE2FF;
+}
+.bio h2{
+  font-size: 2.5 rem;
+  opacity: .7;
+  margin:10px 0 10px;
+}
+.bio p{
+font-size: 1.1rem;
+opacity: 0.7;
+line-height: 2;
+height: 370px;
+}
+.desc{
+  font-size: 0.75rem;
+  opacity: .75;
+}
+.card-header{
+  place-items: center;
+  display: grid;
+}
+.card-header i{
+margin-bottom: 10px;
+font-size: 2rem;
+padding: 10px;
+border: 1px solid  rgb(0,0,0,0.1);
+border-radius: 50%;
+}
+.card-up{
+  position: relative;
+  top: -200px;
+}
+.services h2{
+  font-size: 3rem;
+  opacity: 0.6;
+  margin: 30px 0 10px;
+}
+.services img{
+      width: 300px;
+      height: auto;
+      position: relative;
+      bottom: 29px;
+      right: 29px;
+
+}
+.backend{
+  height: 425px;
+}
+.contact h2{
+  font-size: 3rem;
+  opacity: 0.6;
+  margin: 50px 0 30px;
+
+}
+.contact{
+  width: 100%;
+}
+.contact form{
+
+  transform: translateX(50%);
+    width: 50%;
+}
+
+.contact p {
+  font-size: 1rem;
+  opacity: .78;
+  text-align: left;
+  padding-top: 7px;
+}
+.form-button{
+  position: relative;
+  right: 263px;
+  margin: 25px 0;
+
+}
+.logo{
+  height: 50px;
+  width: 80px;
+  position: relative;
+  left: 70px;
+  bottom: 10px;
+}
+.footer{
+  height: 70px;
+}
+.footer i{
+  margin: 30px 30px;
+
+}
+
+/* Education */
+.education{
+  height: 550px;
+}
+.education h2{
+  font-size: 3rem;
+  opacity: 0.6;
+  margin-left: 50px 0 30px;
+position: relative;
+top: -150px;
+}
+.education h4{
+  font-size: 2rem;
+  opacity: 0.6;
+}
+.education img{
+  height: 100px;
+  width: 100px;
+}
+.schools{
+  height: 530px;
+}
+
+
+@media (max-width: 600px) {
+
+.contact form{
+  position: relative;
+  right:  200px;
+  width: 90%;
+}
+.form-button{
+  position: relative;
+  right: 180px;
+}
+.desk img{
+  position: relative;
+  right: 400px;
+}
+.header-img-2 img{
+  position: relative;
+  right: 60px;
+}
+.card-up{
+  position: relative;
+  top: 210px;
+}
+.bio{
+  background-color: white;
+
+}
+.services{
+  position: relative;
+  top: 200px;
+}
+}
+@media (max-width:800px) {
+.card-up{
+position: relative;
+top: 5px;
+}
+.bio{
+  background-color: white;
+
+}
+}
